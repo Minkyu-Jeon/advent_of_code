@@ -21,7 +21,7 @@ defmodule Day3 do
   end
 end
 
-input = Path.absname("day3.txt", "./input")
+input = Path.absname("day3.txt", "./input/2020")
 |> File.read!()
 |> String.split("\n")
 
